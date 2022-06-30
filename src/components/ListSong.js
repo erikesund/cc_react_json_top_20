@@ -1,8 +1,9 @@
 import React from "react";
 
-const ListSong = ({song}) => {
+const ListSong = ({name}) => {
 
-  return <li>This is a song</li>
-  
+  return (
+  <li>{name}</li>
+  )
 }
 export default ListSong;
